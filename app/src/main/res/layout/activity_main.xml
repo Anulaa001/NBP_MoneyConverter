@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="64dp"
+        android:text="Kalkulator walutowy"
+        android:textColor="#74D578"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberPLN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="552dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResutl"
+        app:srcCompat="@drawable/m" />
+
+    <Button
+        android:id="@+id/buttonKonweruj"
+        android:layout_width="245dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="#74D578"
+        android:onClick="konwertuj"
+        android:text="Konwertuj"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/textViewResutl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerWaluta" />
+
+    <EditText
+        android:id="@+id/editTextNumberPLN"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="90dp"
+        android:ems="10"
+        android:hint="Wpisz sume w PLN"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerWaluta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <Spinner
+        android:id="@+id/spinnerWaluta"
+        android:layout_width="276dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#62BD66"
+        android:dropDownWidth="match_parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonKonweruj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPLN" />
+
+    <TextView
+        android:id="@+id/textViewResutl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="41dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKonweruj" />
+</androidx.constraintlayout.widget.ConstraintLayout>
