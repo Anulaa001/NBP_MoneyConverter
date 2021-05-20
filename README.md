@@ -1,5 +1,5 @@
 # NBP_MoneyConverter
-Aplikacja przeliczająca z polskiego złotego na dowolną walutę z tabeli a Narodowego Banku Polskiego, używają najnowszych danych dzięki API.
+Aplikacja przeliczająca z polskiego złotego na dowolną walutę z tabeli A Narodowego Banku Polskiego, używając najnowszych danych dzięki API.
 
 # Opis projektu:
 Apliakcja konwertująca z Złotego polskiego na waluty zawiarte w tabeli A Polskiego banku Narodowego. Dane pobierane sa z pomocą zapytania do zewnętrznego Api NBP api.nbp.pl.
