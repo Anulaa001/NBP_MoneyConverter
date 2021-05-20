@@ -2,8 +2,8 @@
 Aplikacja przeliczająca z polskiego złotego na dowolną walutę z tabeli A Narodowego Banku Polskiego, używając najnowszych danych dzięki API.
 
 # Opis projektu:
-Apliakcja konwertująca z polskiego złotego na waluty zawarte w tabeli A NBP. Dane pobierane są za pomocą zapytania do zewnętrznego Api NBP api.nbp.pl.
-Pozwalając użytkownikowi na szybką zamiane waluty po średnim kursie dniowym.
+Apliakcja konwertująca z polskiego złotego na waluty zawarte w tabeli A NBP. Dane pobierane są za pomocą zapytania do zewnętrznego Api - NBP (api.nbp.pl).
+Pozwalając użytkownikowi na szybką zamianę waluty po średnim kursie dniowym.
 # Waluty:
   * bat (Tajlandia) => THB
   * dolar amerykański => USD
@@ -50,17 +50,17 @@ Pozwalając użytkownikowi na szybką zamiane waluty po średnim kursie dniowym.
 
 # Funkcje:
 
-  * Zdefiniowanne zmienne
+  * Zdefiniowane zmienne
   
     ![Image](https://github.com/Anulaa001/NBP_MoneyConverter/blob/master/android/zmienne.PNG)
  
- * Wyslanie zapytania do api 
+ * Wysłanie zapytania do api 
  
     ![Image](https://github.com/Anulaa001/NBP_MoneyConverter/blob/master/android/zapAPI.PNG)
  
  * Odczytanie danych z JSON, przeliczenie walut oraz wyswietlenie w widoku
  
-    ! Przy nie wprowadzeniu żadnej watrości aplikacja obiczy dla 1PLN !
+    ! Przy nie wprowadzeniu żadnej watrości aplikacja obliczy dla 1PLN !
     
     ![Image](https://github.com/Anulaa001/NBP_MoneyConverter/blob/master/android/zapAPIObl.PNG)
  
