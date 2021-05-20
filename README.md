@@ -2,7 +2,7 @@
 Aplikacja przeliczająca z polskiego złotego na dowolną walutę z tabeli A Narodowego Banku Polskiego, używając najnowszych danych dzięki API.
 
 # Opis projektu:
-Apliakcja konwertująca z Złotego polskiego na waluty zawiarte w tabeli A Polskiego banku Narodowego. Dane pobierane sa z pomocą zapytania do zewnętrznego Api NBP api.nbp.pl.
+Apliakcja konwertująca z polskiego złotego na waluty zawarte w tabeli A NBP. Dane pobierane są za pomocą zapytania do zewnętrznego Api NBP api.nbp.pl.
 Pozwalając użytkownikowi na szybką zamiane waluty po średnim kursie dniowym.
 # Waluty:
   * bat (Tajlandia) => THB
