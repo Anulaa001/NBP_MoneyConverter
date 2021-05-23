@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     suma.setText("1");
                 }
                 float f = (float) (Float.parseFloat(suma.getText().toString()) / srednia);
-                rezultat.setText(String.valueOf("Rezultat: " +String.format("%.2f",f)+ " " + wybranaWaluta));
+                rezultat.setText(String.valueOf(suma.getText()+" PLN to " +String.format("%.2f",f)+ " " + wybranaWaluta));
             } catch (JSONException e) {
                 e.printStackTrace();
             }
