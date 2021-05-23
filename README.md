@@ -66,7 +66,7 @@ Pozwalając użytkownikowi na szybką zamianę waluty po średnim kursie dniowym
  
  # Wynik:
  
- ![Image](https://github.com/Anulaa001/NBP_MoneyConverter/blob/master/android/wynik.PNG)
+ ![Image](https://github.com/Anulaa001/NBP_MoneyConverter/blob/master/android/wynik3.PNG)
  
  # Autorzy: 
  Anna Czupryn s22-31
